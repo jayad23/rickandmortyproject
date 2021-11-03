@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Nanum+Pen+Script&family=Varela+Round&display=swap');
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(252,176,69);
+    background: linear-gradient(90deg, 
+                rgba(252,176,69,1) 21%, 
+                rgba(134,9,9,0.8673844537815126) 47%, 
+                rgba(58,180,94,1) 71%);
+    height: 6rem;
+}
+
+.header-container>form>h1{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+.header-container>form>.search-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.header-container>form>.search-container>input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px 0 0 10px;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.3rem;
+    padding-left: 0.7rem;
+}
+
+.header-container>form>.search-container>button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background-color: #112A46;
+}
+.header-container>form>.search-container>button>i{
+    color: #fff;
+}

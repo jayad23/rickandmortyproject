@@ -1,9 +1,10 @@
+import React from 'react'
+import '../StylesCntr/HomeHeader.css'
 
-import './Header.css'
-
-const Header = () =>{
+const HomeHeader = () => {
     return (
-        <div className='header-container'>
+        
+        <div className='home-container'>
             <form >
                 <h1>About Rick & Morty</h1>
                 <div className="search-container">
@@ -12,7 +13,8 @@ const Header = () =>{
                 </div>
             </form>
         </div>
+        
     )
 }
 
-export default Header
+export default HomeHeader

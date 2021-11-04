@@ -1,0 +1,14 @@
+.card-container>card-welcome>button{
+    margin-top: 0.3rem;
+    background: rgb(136,9,9);
+    background: linear-gradient(90deg, 
+    rgba(136,9,9,0.8673844537815126) 4%, 
+    rgba(17,3,106,1) 100%, 
+    rgba(252,176,69,1) 100%);
+    padding: 0.4rem;
+    border: none;
+    border-radius: 0.4rem;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bolder;
+    color: #fff;
+}

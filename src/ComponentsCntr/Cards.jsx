@@ -1,8 +1,10 @@
-import React from 'react'
-import './Cards.css'
+
+import '../StylesCntr/Cards.css'
 
 const Cards = ({name, image}) => {
+
     return (
+       
         <div className="card">
             <div>
                 <h4>{name}</h4>
@@ -14,6 +16,7 @@ const Cards = ({name, image}) => {
                 <button>More...</button>
             </div>
         </div>
+
     )
 }
 

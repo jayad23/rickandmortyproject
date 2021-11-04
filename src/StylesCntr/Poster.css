@@ -1,0 +1,31 @@
+.card-welcome>.welcomeBtn{
+    position: absolute;
+    margin-top: 35rem;
+    margin-left: 1.6rem;
+    z-index: 1;
+}
+
+.card-welcome>.welcomeImg{
+    position: relative;
+}
+
+.card-welcome>div>img{
+    height: 100vh;
+}
+
+.card-welcome>div>button{
+    width: 20rem;
+    height: 4rem;
+    background: rgb(136,9,9);
+    background: linear-gradient(90deg, 
+    rgba(136,9,9,0.8673844537815126) 4%, 
+    rgba(17,3,106,1) 100%, 
+    rgba(252,176,69,1) 100%);
+    padding: 0.4rem;
+    border: none;
+    border-radius: 1rem;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 3rem;
+}

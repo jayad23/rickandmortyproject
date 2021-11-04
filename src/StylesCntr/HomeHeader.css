@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Nanum+Pen+Script&family=Varela+Round&display=swap');
 
-.header-container{
+.home-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,21 +11,22 @@
                 rgba(134,9,9,0.8673844537815126) 47%, 
                 rgba(58,180,94,1) 71%);
     height: 6rem;
+    width: 100%;
 }
 
-.header-container>form>h1{
+.home-container>form>h1{
     text-align: center;
     font-family: 'Bangers', cursive;
 }
 
-.header-container>form>.search-container{
+.home-container>form>.search-container{
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 0.5rem;
 }
 
-.header-container>form>.search-container>input{
+.home-container>form>.search-container>input{
     width: 20rem;
     height: 2rem;
     border-radius: 10px 0 0 10px;
@@ -38,13 +39,14 @@
     padding-left: 0.7rem;
 }
 
-.header-container>form>.search-container>button{
+.home-container>form>.search-container>button{
     width: 2rem;
     height: 2rem;
     border-radius: 0 10px 10px 0;
     border: none;
     background-color: #112A46;
 }
-.header-container>form>.search-container>button>i{
+.home-container>form>.search-container>button>i{
     color: #fff;
-}
+}   
+

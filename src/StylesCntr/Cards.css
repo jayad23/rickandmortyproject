@@ -13,7 +13,7 @@
 .card-container>.card>div>h4{
     font-family: 'Bangers', cursive;
     /* color: rgb(21, 7, 212); */
-    color: rgb(136,9,9);
+    color: rgb(77, 136, 9);
     color: linear-gradient(90deg, rgba(136,9,9,0.8673844537815126) 4%, rgba(17,3,106,1) 100%, rgba(252,176,69,1) 100%);
 }
 
@@ -22,6 +22,12 @@
     width: 200px;
     height: 200px;
     border-radius: 30%;
+}
+
+.card-container>.card>div>img.visible{
+    opacity: 1;
+    transform: scale(1);
+    transition: .7s ease-in-out all;
 }
 
 .card-container>.card>div>button{
@@ -38,3 +44,4 @@
     font-weight: bolder;
     color: #fff;
 }
+

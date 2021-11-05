@@ -5,6 +5,11 @@
     z-index: 1;
 }
 
+.card-welcome>.welcomeBtn>.link>button>{
+    text-decoration: none;
+    
+}
+
 .card-welcome>.welcomeImg{
     position: relative;
 }
@@ -13,7 +18,7 @@
     height: 100vh;
 }
 
-.card-welcome>div>button{
+.card-welcome>div>.link>button{
     width: 20rem;
     height: 4rem;
     background: rgb(136,9,9);
@@ -26,6 +31,6 @@
     border-radius: 1rem;
     font-family: 'Nanum Pen Script', cursive;
     font-weight: bolder;
-    color: #fff;
     font-size: 3rem;
+    color: #fff;
 }

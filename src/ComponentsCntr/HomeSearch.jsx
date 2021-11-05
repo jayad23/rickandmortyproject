@@ -9,6 +9,7 @@ import '../StylesCntr/Cards.css'
 
 const HomeSearch = () => {
     const [dataApi, setDataApi] = useState([])
+    const [searchValue, setSearchValue] = useState("")
 
     useEffect(()=>{
         const handlerSearch = async()=>{
@@ -20,9 +21,22 @@ const HomeSearch = () => {
         handlerSearch()
     }, [])
 
+    // Search Engine Input and Form
+    const handlerValueSearch = ({value})=>{
+        setSearchValue(value)
+    }
+
+    const handlerSearch = (e)=>{
+        e.preventDefault()
+        console.log(searchValue)
+    }
+
     return (
         <>  
-            <HomeHeader/>
+            <HomeHeader
+                handlerValueSearch={handlerValueSearch}
+                handlerSearch = {handlerSearch}
+            />
             <div className="card-container">
                     {
                         dataApi && dataApi.length > 0 ?
